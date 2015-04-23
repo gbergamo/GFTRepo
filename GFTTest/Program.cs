@@ -24,10 +24,8 @@ namespace GFTTest
                             continue;
                         }
 
-                        IBusiness biz = new Business();
-                        
-                        List<string> listInputed = Utils.GetWordTypedList(rd);
-                        Console.WriteLine(biz.ApplyRules(listInputed));
+                        Order o = new Order(rd);
+                        Console.WriteLine(o.Process());
                     }
                 }
                 catch (Exception ex)

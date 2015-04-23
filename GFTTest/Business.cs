@@ -9,6 +9,7 @@ namespace GFTTest
     {
         public static List<string> possibleTimeOfDay = new List<string>() { "morning", "night" };
 
+
         /// <summary>
         /// Apply rules described in document
         /// </summary>
@@ -35,10 +36,10 @@ namespace GFTTest
 
             List<string> outputList = new List<string>();
 
-            foreach (string item in inputed)
-            {
-                outputList.Add(Dishes.ConvertCodeToDish(meal, item));
-            }
+            //foreach (string item in inputed)
+            //{
+            //    outputList.Add(Dishes.ConvertCodeToDish(meal, item));
+            //}
 
             foreach (string outputItem in outputList)
             {
@@ -60,18 +61,36 @@ namespace GFTTest
 
         public bool ValidateTimeOfDay(string inputed)
         {
-            if (!possibleTimeOfDay.Contains(inputed))
+            TimeOfDay inputedTimeOfDay;
+            if (!Enum.TryParse(inputed, false, out inputedTimeOfDay))
                 return false;
+
             return true;
         }
 
         public bool ValidateOrder(List<string> inputed)
         {
+            foreach (var item in inputed)
+            {
+                    
+            }
+
+
+
             if (inputed.Contains("4") && inputed.First().Equals("morning"))
                 return false;
 
             return true;
         }
-        
+
+
+        public bool ValidateOrder(List<string> inputed, TimeOfDay timeOfDay)
+        {
+            foreach (string item in inputed)
+            {
+                string c = Dishes.ConvertCodeToDish(timeOfDay, item);
+            }
+            return true;
+        }
     }
 }

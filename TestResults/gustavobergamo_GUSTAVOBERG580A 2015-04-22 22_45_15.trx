@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e5da0f97-ffa2-4006-bd4e-45d985a80ba4" name="gustavobergamo@GUSTAVOBERG580A 2015-04-22 22:45:15" runUser="GUSTAVOBERG580A\gustavobergamo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="863fcd55-f379-45bc-bfbc-4c73ff5d0e47">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="gustavobergamo_GUSTAVOBERG580A 2015-04-22 22_45_15" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2015-04-22T22:45:15.0707000-03:00" queuing="2015-04-22T22:45:15.3847000-03:00" start="2015-04-22T22:45:15.5407000-03:00" finish="2015-04-22T22:45:16.0243000-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TimeOfDayMustBeMorningOrNight" storage="gfttest.test/bin/debug/gfttest.test.dll" id="16628bf6-4f47-35d9-4185-c41f488a5589">
+      <Execution id="c053bc50-4edc-432f-9f4c-2cf64eb6a49d" />
+      <TestMethod codeBase="C:/Projects/GFTTest/GFTTest.Test/bin/Debug/GFTTest.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GFTTest.Test.UnitTest, GFTTest.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TimeOfDayMustBeMorningOrNight" />
+    </UnitTest>
+    <UnitTest name="TheDishesMustFollowTheCorrectOrder" storage="gfttest.test/bin/debug/gfttest.test.dll" id="383ebb29-de98-40fc-ecdd-21bc4a65b50e">
+      <Execution id="a00923d0-8cbd-4039-8f90-64e495a553fc" />
+      <TestMethod codeBase="C:/Projects/GFTTest/GFTTest.Test/bin/Debug/GFTTest.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GFTTest.Test.UnitTest, GFTTest.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheDishesMustFollowTheCorrectOrder" />
+    </UnitTest>
+    <UnitTest name="TimeOfDayIsNotCaseSensitive" storage="gfttest.test/bin/debug/gfttest.test.dll" id="36663b77-4d12-0e48-ea10-f210041f563e">
+      <Execution id="f0ff6a86-c3e2-420a-8f8b-dbde95f11ab3" />
+      <TestMethod codeBase="C:/Projects/GFTTest/GFTTest.Test/bin/Debug/GFTTest.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GFTTest.Test.UnitTest, GFTTest.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TimeOfDayIsNotCaseSensitive" />
+    </UnitTest>
+    <UnitTest name="WhenItsMorningAndOrderMultiplesEggsReturnError" storage="gfttest.test/bin/debug/gfttest.test.dll" id="90a5dc37-cc89-4131-f3f2-800e5f2a0605">
+      <Execution id="563e570f-9646-4169-b33b-7cae1c8093c5" />
+      <TestMethod codeBase="C:/Projects/GFTTest/GFTTest.Test/bin/Debug/GFTTest.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GFTTest.Test.UnitTest, GFTTest.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenItsMorningAndOrderMultiplesEggsReturnError" />
+    </UnitTest>
+    <UnitTest name="WhenItsNightAndOrderMultiplesPotatoesReturnSuccess" storage="gfttest.test/bin/debug/gfttest.test.dll" id="28dbcc69-5d90-6b4b-afcf-55106575c4dd">
+      <Execution id="6917314b-e758-4036-83ec-562fa067c328" />
+      <TestMethod codeBase="C:/Projects/GFTTest/GFTTest.Test/bin/Debug/GFTTest.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GFTTest.Test.UnitTest, GFTTest.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenItsNightAndOrderMultiplesPotatoesReturnSuccess" />
+    </UnitTest>
+    <UnitTest name="WhenItsMorningAndInputDessertReturnError" storage="gfttest.test/bin/debug/gfttest.test.dll" id="01c881de-de5c-5f3c-a6cc-3d8f3e7033de">
+      <Execution id="c324ff07-4a9d-4448-b6a3-b2f480f7cbd5" />
+      <TestMethod codeBase="C:/Projects/GFTTest/GFTTest.Test/bin/Debug/GFTTest.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GFTTest.Test.UnitTest, GFTTest.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenItsMorningAndInputDessertReturnError" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="383ebb29-de98-40fc-ecdd-21bc4a65b50e" executionId="a00923d0-8cbd-4039-8f90-64e495a553fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36663b77-4d12-0e48-ea10-f210041f563e" executionId="f0ff6a86-c3e2-420a-8f8b-dbde95f11ab3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16628bf6-4f47-35d9-4185-c41f488a5589" executionId="c053bc50-4edc-432f-9f4c-2cf64eb6a49d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01c881de-de5c-5f3c-a6cc-3d8f3e7033de" executionId="c324ff07-4a9d-4448-b6a3-b2f480f7cbd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90a5dc37-cc89-4131-f3f2-800e5f2a0605" executionId="563e570f-9646-4169-b33b-7cae1c8093c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28dbcc69-5d90-6b4b-afcf-55106575c4dd" executionId="6917314b-e758-4036-83ec-562fa067c328" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a00923d0-8cbd-4039-8f90-64e495a553fc" testId="383ebb29-de98-40fc-ecdd-21bc4a65b50e" testName="TheDishesMustFollowTheCorrectOrder" computerName="GUSTAVOBERG580A" duration="00:00:00.0274118" startTime="2015-04-22T22:45:15.5719000-03:00" endTime="2015-04-22T22:45:15.8995000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a00923d0-8cbd-4039-8f90-64e495a553fc">
+    </UnitTestResult>
+    <UnitTestResult executionId="f0ff6a86-c3e2-420a-8f8b-dbde95f11ab3" testId="36663b77-4d12-0e48-ea10-f210041f563e" testName="TimeOfDayIsNotCaseSensitive" computerName="GUSTAVOBERG580A" duration="00:00:00.0064296" startTime="2015-04-22T22:45:15.9151000-03:00" endTime="2015-04-22T22:45:15.9151000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0ff6a86-c3e2-420a-8f8b-dbde95f11ab3">
+    </UnitTestResult>
+    <UnitTestResult executionId="c053bc50-4edc-432f-9f4c-2cf64eb6a49d" testId="16628bf6-4f47-35d9-4185-c41f488a5589" testName="TimeOfDayMustBeMorningOrNight" computerName="GUSTAVOBERG580A" duration="00:00:00.0018018" startTime="2015-04-22T22:45:15.9307000-03:00" endTime="2015-04-22T22:45:15.9463000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c053bc50-4edc-432f-9f4c-2cf64eb6a49d">
+    </UnitTestResult>
+    <UnitTestResult executionId="c324ff07-4a9d-4448-b6a3-b2f480f7cbd5" testId="01c881de-de5c-5f3c-a6cc-3d8f3e7033de" testName="WhenItsMorningAndInputDessertReturnError" computerName="GUSTAVOBERG580A" duration="00:00:00.0002289" startTime="2015-04-22T22:45:15.9463000-03:00" endTime="2015-04-22T22:45:15.9463000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c324ff07-4a9d-4448-b6a3-b2f480f7cbd5">
+    </UnitTestResult>
+    <UnitTestResult executionId="563e570f-9646-4169-b33b-7cae1c8093c5" testId="90a5dc37-cc89-4131-f3f2-800e5f2a0605" testName="WhenItsMorningAndOrderMultiplesEggsReturnError" computerName="GUSTAVOBERG580A" duration="00:00:00.0004694" startTime="2015-04-22T22:45:15.9463000-03:00" endTime="2015-04-22T22:45:15.9619000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="563e570f-9646-4169-b33b-7cae1c8093c5">
+    </UnitTestResult>
+    <UnitTestResult executionId="6917314b-e758-4036-83ec-562fa067c328" testId="28dbcc69-5d90-6b4b-afcf-55106575c4dd" testName="WhenItsNightAndOrderMultiplesPotatoesReturnSuccess" computerName="GUSTAVOBERG580A" duration="00:00:00.0003966" startTime="2015-04-22T22:45:15.9619000-03:00" endTime="2015-04-22T22:45:15.9619000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6917314b-e758-4036-83ec-562fa067c328">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -13,31 +13,51 @@ namespace GFTTest
         /// <param name="meal">Meal entered: morning/night</param>
         /// <param name="code">Dish code</param>
         /// <returns></returns>
-        public static string ConvertCodeToDish(string meal, string code)
+        public static string ConvertCodeToDish(TimeOfDay meal, string code)
         {
             string strReturn = string.Empty;
 
+            switch (meal)
+            {
+                case TimeOfDay.morning:
+                    return GetMorningDish(code);
+                case TimeOfDay.night:
+                    return GetNightDish(code);
+                default:
+                    return "error";
+            }
+        }
+
+        private static string GetMorningDish(string code)
+        {
             switch (code)
             {
                 case "1":
-                    strReturn = meal == "morning" ? "eggs" : "steak";
-                    break;
+                    return "eggs";
                 case "2":
-                    strReturn = meal == "morning" ? "toast" : "potato";
-                    break;
+                    return "toast";
                 case "3":
-                    strReturn = meal == "morning" ? "coffee" : "wine";
-                    break;
-                case "4":
-                    strReturn = meal == "morning" ? "N/A" : "cake";
-                    break;
+                    return "coffee";
                 default:
-                    strReturn = "error";
-                    //throw new Exception("You entered a invalid dish code.");
-                    break;
+                    return "error";
             }
+        }
 
-            return strReturn;
+        private static string GetNightDish(string code)
+        {
+            switch (code)
+            {
+                case "1":
+                    return "steak";
+                case "2":
+                    return "potato";
+                case "3":
+                    return "wine";
+                case "4":
+                    return "cake";
+                default:
+                    return "error";
+            }
         }
 
         public static List<string> OrderedDish(List<string> inputed)

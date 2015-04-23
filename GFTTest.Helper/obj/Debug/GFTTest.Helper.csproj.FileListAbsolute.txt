@@ -1,0 +1,9 @@
+C:\Projects\GFTTest\GFTTest.Helper\obj\Debug\GFTTest.Helper.csprojResolveAssemblyReference.cache
+C:\Projects\GFTTest\GFTTest.Helper\bin\Debug\GFTTest.Helper.dll
+C:\Projects\GFTTest\GFTTest.Helper\bin\Debug\GFTTest.Helper.pdb
+C:\Projects\GFTTest\GFTTest.Helper\bin\Debug\GFTTest.Business.dll
+C:\Projects\GFTTest\GFTTest.Helper\bin\Debug\GFTTest.Entities.dll
+C:\Projects\GFTTest\GFTTest.Helper\bin\Debug\GFTTest.Business.pdb
+C:\Projects\GFTTest\GFTTest.Helper\bin\Debug\GFTTest.Entities.pdb
+C:\Projects\GFTTest\GFTTest.Helper\obj\Debug\GFTTest.Helper.dll
+C:\Projects\GFTTest\GFTTest.Helper\obj\Debug\GFTTest.Helper.pdb

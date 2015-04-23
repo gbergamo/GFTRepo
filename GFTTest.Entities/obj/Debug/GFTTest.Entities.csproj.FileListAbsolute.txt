@@ -1,0 +1,5 @@
+C:\Projects\GFTTest\GFTTest.Entities\bin\Debug\GFTTest.Entities.dll
+C:\Projects\GFTTest\GFTTest.Entities\bin\Debug\GFTTest.Entities.pdb
+C:\Projects\GFTTest\GFTTest.Entities\obj\Debug\GFTTest.Entities.csprojResolveAssemblyReference.cache
+C:\Projects\GFTTest\GFTTest.Entities\obj\Debug\GFTTest.Entities.dll
+C:\Projects\GFTTest\GFTTest.Entities\obj\Debug\GFTTest.Entities.pdb
